@@ -5,9 +5,9 @@ Please modify this project by preprocessor SCSS!
 
 #Global
 
-# LibSasserPlate
+# Starter-SCSS
 
-> **LibSass** starter for front-end projects
+> **SCSS** starter for front-end projects
 
 ## Built with:
 
