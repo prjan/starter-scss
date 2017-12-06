@@ -1,0 +1,31 @@
+{
+  "name": "starter-scss",
+  "version": "1.0.0",
+  "description": "SCSS starter for front-end projects",
+  "author": "<przjankowski@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "flex-helpers": "^1.0.0",
+    "gridle": "^2.0.48",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-htmllint": "0.0.12",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-image": "^2.7.3",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-svg-symbols": "^2.0.2",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-uglify": "^2.0.0",
+    "gulp.spritesmith": "^6.3.0",
+    "jquery": "3.1.1",
+    "normalize.css": "^5.0.0",
+    "phantomjssmith": "^1.0.0",
+    "run-sequence": "^1.2.2"
+  }
+}

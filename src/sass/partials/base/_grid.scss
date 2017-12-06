@@ -1,0 +1,69 @@
+@import "node_modules/gridle/sass/gridle/gridle";
+@import 'node_modules/gridle/sass/gridle/gridle-flex';
+
+@include gridle_setup((
+        context: 12,
+        gutter-width: 0
+));
+
+@include gridle_register_state (inner, (
+        max-width: $size_inner,
+        classes: false
+));
+
+@include gridle_register_state (laptop, (
+        max-width: 1600px,
+        classes: false
+));
+
+@include gridle_register_state (laptop-middle, (
+        max-width: 1440px,
+        classes: false
+));
+
+@include gridle_register_state (laptop-small, (
+        max-width: 1200px,
+        classes: false
+));
+
+@include gridle_register_state (tablet, (
+        max-width: 1024px
+));
+
+@include gridle_register_state (tablet-middle, (
+        max-width: 980px
+));
+
+@include gridle_register_state (tablet-small, (
+        max-width: 768px
+));
+
+@include gridle_register_state (mobile, (
+        max-width: 767px
+));
+
+@include gridle_register_state (mobile-middle, (
+        max-width: 670px
+));
+
+@include gridle_register_state (mobile-small, (
+        max-width: 480px
+));
+
+@include gridle_generate_classes (all, grid row pull push no-gutter hide show);
+
+// [class*="no-gutter"] > .row,
+// .row {
+//     margin-left: -10px!important;
+//     margin-right: -10px!important;
+// }
+
+// [class*="gr-"] > [class^="row"] {
+//     margin-left: -10px;
+//     margin-right: -10px;
+// }
+
+// .gr {
+//     padding-left: 10px;
+//     padding-right: 10px;
+// }

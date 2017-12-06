@@ -1,0 +1,30 @@
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+
+    resize: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+*::-ms-clear {
+    display: none;
+}

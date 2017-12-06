@@ -1,0 +1,5 @@
+.c-field {
+    @extend %helper-clear-margins;
+
+    margin: $margin_default;
+}

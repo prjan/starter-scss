@@ -1,0 +1,47 @@
+
+/**
+ * Apply a natural box layout model to all elements
+ */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+/* Base
+   ========================================================================== */
+html {
+    font-size: 62.5%; /* 10px */
+}
+
+body {
+    min-width: 320px;
+
+    font-family: $font_normal;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.4;
+
+    color: $color_black;
+    background: $color_white;
+}
+
+/* Global Typography
+   ========================================================================== */
+
+a {
+    text-decoration: none;
+
+    color: $color_black;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+img {
+    max-width: 100%;
+}

@@ -1,0 +1,42 @@
+.c-field {
+    &--radio,
+    &--checkbox {
+        position: relative;
+
+        input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            z-index: -1;
+            width: 20px!important;
+        }
+
+        .f-label {
+            position: relative;
+
+            cursor: pointer;
+
+            &:after {
+                opacity: 0;
+            }
+
+            &:after,
+            &:before {
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                content: '';
+            }
+        }
+
+        input:checked {
+            & + .f-label {
+                &:after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

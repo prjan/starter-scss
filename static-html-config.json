@@ -1,0 +1,8 @@
+{
+    "path": "./",
+    "plugins": [
+        "tpl/js/plugins/custom-select.js",
+        "tpl/js/plugins/fastclick.js",
+        "tpl/js/plugins/magnific-popup.js"
+    ]
+}
